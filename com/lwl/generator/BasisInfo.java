@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 import lombok.Data;
 
@@ -50,6 +50,7 @@ public class BasisInfo {
         this.controllerUrl = controllerUrl;
         this.abstractControllerUrl = controllerUrl + ".base";
     }
+
     public BasisInfo(String project, String parentProject, String author, String version, String dbUrl, String dbName, String dbPassword, String database, String table, String entityName, String objectName, String entityComment, String createTime, String agile, String entityUrl, String daoUrl, String mapperUrl, String serviceUrl, String serviceImplUrl, String abstractControllerUrl, String controllerUrl, String swaggerConfigUrl, String idType, String idJdbcType, List<PropertyInfo> cis) {
         this.project = project;
         this.parentProject = parentProject;
@@ -77,6 +78,7 @@ public class BasisInfo {
         this.idJdbcType = idJdbcType;
         this.cis = cis;
     }
+
     public BasisInfo() {
     }
 }

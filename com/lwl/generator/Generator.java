@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 
 import common.ResultJson;

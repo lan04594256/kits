@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 public enum DbColumnType implements IColumnType {
     BASE_BYTE("byte", (String) null),

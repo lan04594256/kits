@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 public enum DateType {
     ONLY_DATE,

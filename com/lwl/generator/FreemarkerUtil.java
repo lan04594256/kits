@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 import common.ResultJson;
 import freemarker.template.Configuration;
@@ -21,7 +21,7 @@ public class FreemarkerUtil {
 
         try {
             Configuration configuration = new Configuration(Configuration.VERSION_2_3_28);
-            configuration.setClassForTemplateLoading(FreemarkerUtil.class, "/generator/ftl");
+            configuration.setClassForTemplateLoading(FreemarkerUtil.class, "/ftl");
             configuration.setDefaultEncoding("utf-8");
             Template template = configuration.getTemplate(templateName);
             File file = new File(filePath);

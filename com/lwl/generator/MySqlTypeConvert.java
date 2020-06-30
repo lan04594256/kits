@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 
 public class MySqlTypeConvert implements ITypeConvert {

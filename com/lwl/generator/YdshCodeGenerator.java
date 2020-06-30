@@ -1,4 +1,5 @@
-package generator;
+package com.lwl.generator;
+
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -12,12 +13,12 @@ import java.util.Map;
  **/
 public class YdshCodeGenerator {
     // 基础信息：项目名、作者、版本
-    public static final String PROJECT = "common";
+    public static final String PROJECT = "com/lwl/generator/common";
     public static final String AUTHOR = "<a href=mailto:lanwenliang@yidianlife.com>蓝文良</a>";
     public static final String VERSION = "V1.0";
     // 数据库连接信息：连接URL、用户名、秘密、数据库名
 //    public static final String URL = "jdbc:mysql://192.168.0.251:3306/ydsh_rms?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&useSSL=true&serverTimezone=UTC";
-   public  static  final String URL="jdbc:mysql://192.168.0.218/ydsh_ews?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false";
+    public static final String URL = "jdbc:mysql://192.168.0.218/ydsh_ews?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false";
     public static final String NAME = "dev2";
     public static final String PASS = "Elife@2019";
     public static final String DATABASE = "ydsh_ews";
@@ -27,7 +28,7 @@ public class YdshCodeGenerator {
     //生成文件存放位置
     public static final String APPLICATION_DIR = "/";
     // base
-    public static final String BASE_CONTROLLER="";
+    public static final String BASE_CONTROLLER = "";
     //这些不用动
     public static final String ENTITY_URL = BASE_PACKAGE + ".entity";
     public static final String DAO_URL = BASE_PACKAGE + ".dao";

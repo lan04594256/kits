@@ -1,4 +1,4 @@
-package generator;
+package com.lwl.generator;
 
 import java.sql.*;
 import java.util.ArrayList;
